@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body style='border:0; margin: 0'>
+        <div id='map'></div>
+        <div class="formBlock">
+            <form id="form">
+                <input type="text" class="input" name="start" placeholder="Choose starting point" />
+                <input type="text" class="input" name="destination" placeholder="Choose starting point" />
+                <button type="submit">Get Directions</button>
+            </form>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+        <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=S8d7L47mdyAG5nHG09dUnSPJjreUVPeC"></script>
+        <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-routing.js?key=S8d7L47mdyAG5nHG09dUnSPJjreUVPeC"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
